@@ -1,0 +1,21 @@
+"""
+fifth_letter = "MONTY"[4]  
+print len(parrot)      length of string parrot
+name = raw_input("What is your name?")       prompts for raw input
+
+"""
+
+cipher = raw_input("What is the cipher text?")
+var1 = len(cipher) -1
+
+def main(var2, plain, a):
+	if var2=var1:
+		return a
+	else:
+		cipher[var2] =plain[var2+a]
+
+print "This was the cipher text:"
+print cipher
+print "These are the possible shifts:"
+
+
